@@ -1,6 +1,6 @@
 var express = require('express');
 var when = require('when');
-var settings = require('../../settings');
+var settings = require('../../lib/config');
 var _ = require('lodash');
 var Post = require('../../models/post');
 var RecentPosts = require('../../models/recentposts');

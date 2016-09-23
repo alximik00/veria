@@ -1,6 +1,6 @@
 var express = require('express');
 var Post = require('../../models/post');
-var settings = require('../../settings');
+var settings = require('../../lib/config');
 
 function deletePost(req,res,next){
     

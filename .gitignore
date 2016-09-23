@@ -1,3 +1,4 @@
 config/veria.db
 node_modules
 .idea
+local_settings.js

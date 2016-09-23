@@ -1,6 +1,6 @@
 var auth = require('../auth');
 var knex = require('../../models/database').knex;
-var settings = require('../../settings');
+var settings = require('../../lib/config');
 
 var nb = auth.authenticate('local', {
         failureRedirect: settings.site.URL + '/dashboard/login?pwd',
