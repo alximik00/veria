@@ -5,9 +5,13 @@ var settings = {
         tagline: 'This is a fresh installation!' //Tagline used in title and site description
     },
     database: {
-        client: 'sqlite3',
+        client: 'mysql',
         connection: {
-            filename : './config/veria.db'
+            host     : '127.0.0.1',
+            user     : 'sreda_user',
+            password : 'sreda_pass',
+            database : 'sreda',
+            charset  : 'utf8'
         }
     },
 	plugins: {
